@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 //useState Hook Basic Intro
 
-// const UseStateHook = () => {
-//   const [color, setColor] = useState("red");
-//   const changeColorBlue = () => {
-//     setColor("blue");
-//   };
-//   const changeColorGreen = () => {
-//     setColor("green");
-//   };
-//   const changeColorYellow = () => {
-//     setColor("yellow");
-//   };
-//   return (
-//     <>
-//       <section>
-//         <h1 className="text-center">UseState-Hook Basic</h1>
-//         <p>My favourite color is {color}</p>
-//         <button onClick={changeColorBlue}>blue</button>
-//         <button onClick={changeColorGreen}>green</button>
-//         <button onClick={changeColorYellow}>yellow</button>
-//       </section>
-//     </>
-//   );
-// };
+const UseStateHook = () => {
+  const [color, setColor] = useState("red");
+  const changeColorBlue = () => {
+    setColor("blue");
+  };
+  const changeColorGreen = () => {
+    setColor("green");
+  };
+  const changeColorYellow = () => {
+    setColor("yellow");
+  };
+  return (
+    <>
+      <section>
+        <h1 className="text-center">UseState-Hook Basic</h1>
+        <p>My favourite color is {color}</p>
+        <button onClick={changeColorBlue}>blue</button>
+        <button onClick={changeColorGreen}>green</button>
+        <button onClick={changeColorYellow}>yellow</button>
+      </section>
+    </>
+  );
+};
 
 //UseState Hook in Objects-How to change object property in useState
 
